@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #7db7e1;
+    color: white;
+    padding: 20px;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 10px auto;
+    width: 60%;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.instagram {
+    color: #db225f; /* Merah muda Instagram */
+}
+
+.github {
+    color: #181717; /* Hitam GitHub */
+}
+#skills {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill-box {
+    background-color: #77ace9; /* Warna kotak */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-box img {
+    width: 80px; /* Ukuran ikon yang seragam */
+    height: 80px;
+    object-fit: contain; /* Pastikan gambar tidak terpotong */
+    background-color: rgb(255, 255, 255); /* Tambahkan background putih agar transparan */
+    padding: 10px; /* Beri sedikit ruang agar ikon tidak menempel ke tepi */
+    border-radius: 10px; /* Opsional: Membuat sudut lebih halus */
+}
+
+.skill-box:hover {
+    transform: scale(1.1);
+}
+
+.projects {
+    padding: 10 px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    height: 100vh; /* Sesuaikan tinggi agar lebih baik */
+    gap: 20px; /* Beri jarak antara teks dan gambar */
+    
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 200px; /* Sesuaikan ukuran gambar */
+    height: auto;
+}
+
+footer {
+    background: #7db7e1;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
